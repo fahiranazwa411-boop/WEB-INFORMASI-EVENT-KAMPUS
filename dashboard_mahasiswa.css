@@ -1,0 +1,134 @@
+    body {
+      margin: 0;
+      background-color: #bfbfbf;
+      overflow-x: hidden;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background-color: #00aaff;
+      width: 230px;
+      height: 100vh;
+      position: fixed;
+      padding: 20px;
+      color: white;
+    }
+    .sidebar img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+    .sidebar .nav-link {
+      color: black;
+      font-weight: bold;
+    }
+    .logout-btn {
+      background-color: #0099ff;
+      border: none;
+      border-radius: 20px;
+      padding: 8px 20px;
+      color: white;
+      position: absolute;
+      bottom: 30px;
+      left: 40px;
+    }
+
+    /* Content */
+    .content {
+      margin-left: 230px;
+      padding: 20px;
+      height: 100vh;
+      overflow-y: auto;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #00aaff;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 5px;
+    }
+
+    .dropdown-toggle {
+      background: transparent;
+      border: none;
+      color: white;
+      font-weight: 500;
+    }
+
+    .dropdown-menu {
+      border-radius: 10px;
+      padding: 5px 0;
+    }
+
+    /* Event Cards */
+    .event-card {
+      background-color: #00aaff;
+      border-radius: 10px;
+      padding: 15px;
+      color: white;
+    }
+    .event-card img {
+      width: 100%;
+      border-radius: 10px;
+      background-color: #ccc;
+      height: 120px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .event-card p {
+      margin: 5px 0;
+      background-color: rgba(255,255,255,0.2);
+      border-radius: 5px;
+      padding: 5px;
+    }
+
+    /* Kalender */
+    .calendar {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 40px;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    }
+    .calendar table {
+      width: 100%;
+      text-align: center;
+      border-collapse: collapse;
+    }
+    .calendar th, .calendar td {
+      border: 1px solid black;
+      height: 50px;
+    }
+    .calendar th {
+      background-color: #e6f7ff;
+    }
+    .event-day {
+      color: red;
+      font-weight: bold;
+    }
+
+    /* Modal */
+    .modal-content {
+      border-radius: 15px;
+      text-align: center;
+      padding: 20px;
+    }
+    .modal-footer {
+      justify-content: center;
+    }
+    .btn-tidak {
+      background-color: red;
+      color: white;
+      border-radius: 20px;
+      width: 80px;
+    }
+    .btn-ya {
+      background-color: limegreen;
+      color: white;
+      border-radius: 20px;
+      width: 80px;
+    }
+  
