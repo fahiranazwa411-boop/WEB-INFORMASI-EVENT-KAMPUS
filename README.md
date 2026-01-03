@@ -2,6 +2,7 @@
 IF1CMalam-7
 
 Langkah Instalasi
+
 -Install web server (XAMPP/Laragon).
 -Salin folder project ke direktori htdocs (XAMPP) atau www (Laragon).
 -Import database ke MySQL melalui phpMyAdmin.
@@ -9,22 +10,23 @@ Langkah Instalasi
 -Jalankan aplikasi melalui browser dengan alamat http://localhost/nama_project.
 
 Cara penggunaan system
--Login
--Buka halaman login.
--Masukkan email dan password.
--Klik tombol Login.
+
+ 1.Login
+ 2.Buka halaman login.
+ 3.Masukkan email dan password.
+ 4.Klik tombol Login.
 
 Mengelola Event (Admin)
--Login sebagai admin.
--Pilih menu Tambah Event.
--Isi data event (judul, deskripsi, tanggal, lokasi, dll).
--Klik Simpan.
+
+1.Login sebagai admin.
+2.Pilih menu Tambah Event.
+3.Isi data event (judul, deskripsi, tanggal, lokasi, dll).
+4.Klik Simpan.
 
 Melihat Event (Pengguna)
--Buka halaman utama 
--pilih event yang ingn dilihat 
+
+1.Buka halaman utama 
+2.pilih event yang ingn dilihat 
+
 informasi detail event akan ditampilkan 
 
-Buka halaman utama.
-Pilih event yang ingin dilihat.
-Informasi detail event akan ditampilkan
